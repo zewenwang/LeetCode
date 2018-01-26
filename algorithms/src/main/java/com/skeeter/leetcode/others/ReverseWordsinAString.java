@@ -1,6 +1,6 @@
 /**
  */
-package com.michael.algorithms.others;
+package com.skeeter.leetcode.others;
 
 /**
  * Reverse Words in a String

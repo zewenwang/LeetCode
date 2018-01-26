@@ -1,4 +1,4 @@
-package com.michael.algorithms.test;
+package com.skeeter.leetcode.test;
 
 import java.util.LinkedList;
 import java.util.List;

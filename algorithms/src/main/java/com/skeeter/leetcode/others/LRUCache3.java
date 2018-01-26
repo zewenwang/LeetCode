@@ -1,4 +1,4 @@
-package com.michael.algorithms.others;
+package com.skeeter.leetcode.others;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

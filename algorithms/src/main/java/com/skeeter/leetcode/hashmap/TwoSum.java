@@ -1,4 +1,4 @@
-package com.michael.algorithms.hashmap;
+package com.skeeter.leetcode.hashmap;
 
 import java.util.HashMap;
 
@@ -56,7 +56,7 @@ public class TwoSum {
 
     public static void main(String[] args) {
         TwoSum exmple = new TwoSum();
-        int[] result = exmple.function(new int[]{2, 7, 11, 15}, 9);
+        int[] result = exmple.function(new int[]{3,2,4}, 6);
         for (int i : result) {
             System.out.println("index = [" + i + "]");
         }

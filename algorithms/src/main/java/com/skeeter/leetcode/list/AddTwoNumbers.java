@@ -1,4 +1,4 @@
-package com.michael.algorithms.list;
+package com.skeeter.leetcode.list;
 
 /**
  * <a href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers</a>

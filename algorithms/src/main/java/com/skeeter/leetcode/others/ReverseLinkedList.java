@@ -1,4 +1,4 @@
-package com.michael.algorithms.others;
+package com.skeeter.leetcode.others;
 
 /**
  * Created by michael on 15/5/30.
@@ -39,10 +39,10 @@ public class ReverseLinkedList {
     }
 
     public static void main(String[] args) {
-        ReverseLinkedList.Solution solution = new ReverseLinkedList().new Solution();
+        Solution solution = new ReverseLinkedList().new Solution();
 
-        ReverseLinkedList.ListNode head = new ReverseLinkedList().new ListNode(1);
-        ReverseLinkedList.ListNode temp = head;
+        ListNode head = new ReverseLinkedList().new ListNode(1);
+        ListNode temp = head;
         temp.next = new ReverseLinkedList().new ListNode(2);
         temp=temp.next;
         temp.next = new ReverseLinkedList().new ListNode(3);
