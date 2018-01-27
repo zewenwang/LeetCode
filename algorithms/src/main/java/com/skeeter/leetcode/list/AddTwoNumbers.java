@@ -119,6 +119,8 @@ public class AddTwoNumbers {
      * 左边是高位的情况
      * <p/>
      * todo fix to right
+     *
+     * 可以换用递归或者栈来做
      */
     public ListNode addTwoNumbersRight(ListNode l1, ListNode l2) {
         if (l1 == null) {
@@ -184,10 +186,11 @@ public class AddTwoNumbers {
         ListNode l2 = new ListNode(9);
         l2.next = new ListNode(9);
 
-        ListNode result = example.addTwoNumbers(l1, l2);
+//        ListNode result = example.addTwoNumbers(l1, l2);
+        ListNode result = example.addTwoNumbersRight(l1, l2);
 
         while (result != null) {
-            System.out.println(result.val);
+            System.out.print(result.val);
             result = result.next;
         }
     }
