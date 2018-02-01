@@ -10,6 +10,11 @@ public class TreeNode {
 
     public TreeNode(int x) { val = x; }
 
+    @Override
+    public String toString() {
+        return "{val: " + val + " , left: " + left + " , right: " + right + "}";
+    }
+
     /**
      *  创建一棵树
      *                  1
