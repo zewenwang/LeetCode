@@ -1,5 +1,7 @@
 package com.skeeter.leetcode
 
+import java.util.concurrent.Callable
+
 /**
  *
  * @author  zewenwang created on 02/01/2018.
@@ -12,3 +14,10 @@ fun <T> runWithTime(function: () -> T): Long {
     return costTime
 }
 
+fun runWithTime(runnable: Runnable?): Long {
+    return runWithTime { runnable?.run() }
+}
+
+fun <T> runWithTime(callable: Callable<T>?): Long {
+    return runWithTime { callable?.call() }
+}
